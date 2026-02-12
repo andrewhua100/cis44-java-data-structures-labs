@@ -90,7 +90,7 @@ public class Matrix {
 
         Matrix addMatrix = matrix1.add(matrix2);
         Matrix multiplyMatrix = matrix1.multiply(matrix3);
-        //error because matrix2's number of rows do not equal matrix1's number of columns
+        //error because matrix3's number of rows do not equal matrix1's number of columns
         //Matrix errorMatrix = matrix3.multiply(matrix1);
         //Matrix errorMatrix1 = matrix3.add(matrix1);
         System.out.println("Result of the Matrix 1 and Matrix 2 added");
@@ -103,3 +103,4 @@ public class Matrix {
 
 
 }
+

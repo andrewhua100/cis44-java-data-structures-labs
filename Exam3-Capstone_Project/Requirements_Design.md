@@ -20,3 +20,6 @@ Trade offs
 - In a sorted list, insertion is slow at O(n), while removal is O(1)
 - for a heap, insertion and removal are O(log n)
 
+<img width="999" height="1185" alt="image" src="https://github.com/user-attachments/assets/346467b7-8201-47a6-9e5a-d782501a9884" />
+
+

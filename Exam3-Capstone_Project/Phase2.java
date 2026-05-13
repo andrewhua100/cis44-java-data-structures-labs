@@ -31,6 +31,7 @@ class SmartScheduler{
     }
     public void insert(Task task){
         heap[size] = task;
+        size++;
         bubbleUp(size-1);
     }
     private void bubbleUp(int index){
@@ -50,7 +51,7 @@ class SmartScheduler{
 
             // Find larger child, swap if child > parent, move down
 
-            if (l < size && heap[r].compareTo(heap[largest])>0){
+            if (l < size && heap[l].compareTo(heap[largest])>0){
                 largest = l;
             }
             if(r < size && heap[r].compareTo(heap[largest])>0){
